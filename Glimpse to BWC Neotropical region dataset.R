@@ -1,7 +1,7 @@
 
-### A glimspe to the datapaper "BIRD-WINDOW COLLISIONS: a comprehensive data set for the Neotropical region" (Piratelli et al. 2025) ###
+### A glimspe to the datapaper "BIRD-WINDOW COLLISIONS: a comprehensive dataset for the Neotropical region" (Piratelli et al. 2025) ###
 
-# Required libraries; if not installed, use: install.packages(c("dplyr","ggplot2","grid","sp","cowplot",dependencies=T))
+# Required libraries; if not installed, use: install.packages(c("dplyr","ggplot2","grid","sp","cowplot),dependencies=T)
 
 library(dplyr)
 library(ggplot2)
@@ -10,7 +10,7 @@ library(sp)
 library(cowplot)
 
 # Set a work directory (path to the BWC_Neotropical_region.csv file in your computer)
-setwd("/home/cx/CORAX/aHelsingin Yliopisto/Papers/a In prep/_00aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaBWC Pira/3rd run/Data_S1")
+setwd("FILE_LOCATION")
 
 # Read the BWC_Neotropical_region.csv file
 BWC_Neotropics=read.csv("BWC_Neotropical_region.csv")
